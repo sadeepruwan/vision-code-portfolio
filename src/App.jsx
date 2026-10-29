@@ -32,39 +32,7 @@ const skills = [
   { name: "Netlify", icon: "🌍", type: "Deployment" },
   { name: "Vercel", icon: "▲", type: "Deployment" },
 ];
-// const projects = [
-//   {
-//     number: "01",
-//     name: "Maths Learning Website",
-//     category: "EDUCATION",
-//     description:
-//       "An educational website designed to make learning mathematics easier and more engaging.",
-//     icon: "📐",
-//     tags: ["React", "JavaScript", "CSS"],
-//     color: "from-violet-500/30 to-indigo-500/10",
-//   },
-//   {
-//     number: "02",
-//     name: "Personal Portfolio",
-//     category: "PERSONAL PROJECT",
-//     description:
-//       "A modern portfolio showcasing my skills, creative work and web development journey.",
-//     icon: "💻",
-//     tags: ["React", "Tailwind CSS"],
-//     color: "from-fuchsia-500/25 to-purple-500/10",
-//   },
-//   {
-//     number: "03",
-//     name: "Future Project",
-//     category: "COMING SOON",
-//     description:
-//       "Exploring new ideas and creating useful digital experiences with modern technologies.",
-//     icon: "🚀",
-//     tags: ["Creative", "Development"],
-//     color: "from-blue-500/25 to-violet-500/10",
-//   },
-// ];
-
+ 
 const projects = [
   {
     number: "01",
@@ -99,6 +67,21 @@ const projects = [
     color: "from-blue-500/25 to-violet-500/10",
     link: "#",
   },
+  
+     
+{
+  number: "04",
+  name: "Teddy Bears Shop",
+  category: "Business",
+  description:
+    "A cute and interactive teddy bears shopping website featuring adorable teddy bears, product collections, and a user-friendly shopping experience.",
+  icon: "🧸",
+  tags: ["React", "JavaScript", "CSS3"],
+  color: "from-pink-500/30 to-purple-500/10",
+  link: "http://niluka.netlify.app",
+},
+
+
 ];
 
 const services = [
