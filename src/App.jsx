@@ -601,7 +601,7 @@ function App() {
                   WhatsApp Me ↗
                 </a>
 
-                <a href="tel:+94766850753" className={buttonSecondary}>
+                <a href="tel:+94776247986" className={buttonSecondary}>
                   📞 Call Me
                 </a>
               </div>
