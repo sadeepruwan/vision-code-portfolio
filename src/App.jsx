@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const email = "sadeepruwan@gmail.com";
-const whatsapp = "94766850753";
+const whatsapp = "94776247986";
 
 const skills = [
   // Frontend
@@ -616,7 +616,7 @@ function App() {
                     rel="noopener noreferrer"
                     className="text-violet-300 transition hover:text-violet-200"
                   >
-                    0766850753
+                    0776247986
                   </a>
                 </p>
               </div>
