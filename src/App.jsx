@@ -593,7 +593,7 @@ function App() {
               {/* Contact Buttons */}
               <div className="mt-9 flex flex-wrap justify-center gap-4">
                 <a
-                  href="https://wa.me/94766850753?text=Hi%20Sadeep%21%20I%27m%20interested%20in%20your%20web%20development%20services."
+                  href="https://wa.me/94776247986?text=Hi%20Sadeep%21%20I%27m%20interested%20in%20your%20web%20development%20services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className={buttonPrimary}
