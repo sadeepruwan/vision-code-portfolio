@@ -46,7 +46,18 @@ const projects = [
     link: "https://wellassaganithaappachchi.netlify.app/",
   },
   {
-    number: "02",
+  number: "02",
+  name: "Teddy Bears Shop",
+  category: "Business",
+  description:
+    "A cute and interactive teddy bears shopping website featuring adorable teddy bears, product collections, and a user-friendly shopping experience.",
+  icon: "🧸",
+  tags: ["React", "JavaScript", "CSS3"],
+  color: "from-pink-500/30 to-purple-500/10",
+  link: "http://niluka.netlify.app",
+},
+  {
+    number: "03",
     name: "Personal Portfolio Website",
     category: "WEB DEVELOPMENT",
     description:
@@ -57,7 +68,7 @@ const projects = [
     link: "#",
   },
   {
-    number: "03",
+    number: "04",
     name: "Full Stack Web Application",
     category: "COMING SOON",
     description:
@@ -69,17 +80,7 @@ const projects = [
   },
   
      
-{
-  number: "04",
-  name: "Teddy Bears Shop",
-  category: "Business",
-  description:
-    "A cute and interactive teddy bears shopping website featuring adorable teddy bears, product collections, and a user-friendly shopping experience.",
-  icon: "🧸",
-  tags: ["React", "JavaScript", "CSS3"],
-  color: "from-pink-500/30 to-purple-500/10",
-  link: "http://niluka.netlify.app",
-},
+
 
 
 ];
