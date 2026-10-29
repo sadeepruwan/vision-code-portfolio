@@ -249,97 +249,121 @@ function App() {
           </div>
 
           {/* Developer card */}
-          <div className="relative mx-auto w-full max-w-xl">
-            <div className="absolute inset-8 rounded-full bg-violet-600/20 blur-[90px]" />
+         
+<div className="relative mx-auto w-full max-w-xl">
+  <div className="absolute inset-8 rounded-full bg-violet-600/20 blur-[90px]" />
 
-            <div className="relative rounded-2xl border border-violet-300/20 bg-[#100d20]/90 p-1 shadow-2xl shadow-violet-950/40 sm:p-2">
-              <div className="rounded-xl border border-white/[0.06] bg-[#0b0915]">
-                <div className="flex items-center justify-between border-b border-white/[0.08] px-5 py-4">
-                  <div className="flex gap-2">
-                    <span className="h-3 w-3 rounded-full bg-rose-400" />
-                    <span className="h-3 w-3 rounded-full bg-amber-300" />
-                    <span className="h-3 w-3 rounded-full bg-emerald-400" />
-                  </div>
-                  <span className="text-xs text-slate-500">developer.jsx</span>
-                  <span className="text-violet-400">✦</span>
-                </div>
+  <div className="relative rounded-2xl border border-violet-300/20 bg-[#100d20]/90 p-1 shadow-2xl shadow-violet-950/40 sm:p-2">
+    <div className="rounded-xl border border-white/[0.06] bg-[#0b0915]">
+      {/* Editor Header */}
+      <div className="flex items-center justify-between border-b border-white/[0.08] px-5 py-4">
+        <div className="flex gap-2">
+          <span className="h-3 w-3 rounded-full bg-rose-400" />
+          <span className="h-3 w-3 rounded-full bg-amber-300" />
+          <span className="h-3 w-3 rounded-full bg-emerald-400" />
+        </div>
+        <span className="text-xs text-slate-500">developer.jsx</span>
+        <span className="text-violet-400">✦</span>
+      </div>
 
-                <div className="overflow-x-auto p-5 font-mono text-xs leading-8 sm:p-8 sm:text-sm">
-                  <p>
-                    <span className="text-slate-600">01</span>{" "}
-                    <span className="text-fuchsia-400">const</span> developer ={" "}
-                    {"{"}
-                  </p>
-                  <p>
-                    <span className="text-slate-600">02</span> &nbsp; name:{" "}
-                    <span className="text-emerald-300">&apos;Sadeep&apos;</span>
-                    ,
-                  </p>
-                  <p>
-                    <span className="text-slate-600">03</span> &nbsp; role:{" "}
-                    <span className="text-emerald-300">
-                      &apos;Web Developer&apos;
-                    </span>
-                    ,
-                  </p>
-                  <p>
-                    <span className="text-slate-600">04</span> &nbsp; creative:{" "}
-                    <span className="text-orange-300">true</span>,
-                  </p>
-                  <p>
-                    <span className="text-slate-600">05</span> &nbsp; passion:{" "}
-                    <span className="text-emerald-300">
-                      &apos;Building&apos;
-                    </span>
-                  </p>
-                  <p>
-                    <span className="text-slate-600">06</span> {"};"}
-                  </p>
-                  <br />
-                  <p>
-                    <span className="text-fuchsia-400">function</span>{" "}
-                    <span className="text-sky-300">createFuture</span>() {"{"}
-                  </p>
-                  <p>
-                    <span className="text-slate-600">08</span> &nbsp;{" "}
-                    <span className="text-fuchsia-400">return</span>{" "}
-                    <span className="text-emerald-300">
-                      &apos;Great Ideas ✨&apos;
-                    </span>
-                    ;
-                  </p>
-                  <p>
-                    <span className="text-slate-600">09</span> {"}"}
-                  </p>
-                </div>
+      {/* Code Editor */}
+      <div className="overflow-x-auto p-5 font-mono text-xs leading-8 sm:p-8 sm:text-sm">
+        <p>
+          <span className="text-slate-600">01</span>{" "}
+          <span className="text-fuchsia-400">const</span> developer = {"{"}
+        </p>
+        <p>
+          <span className="text-slate-600">02</span> &nbsp; name:{" "}
+          <span className="text-emerald-300">'Sadeep'</span>,
+        </p>
+        <p>
+          <span className="text-slate-600">03</span> &nbsp; role:{" "}
+          <span className="text-emerald-300">'Full-Stack Developer'</span>,
+        </p>
+        <p>
+          <span className="text-slate-600">04</span> &nbsp; frontend: {"{"}
+        </p>
+        <p>
+          <span className="text-slate-600">05</span> &nbsp;&nbsp; skills: [
+          <span className="text-amber-300">'React'</span>,{" "}
+          <span className="text-amber-300">'JavaScript'</span>,{" "}
+          <span className="text-amber-300">'Tailwind CSS'</span>],
+        </p>
+        <p>
+          <span className="text-slate-600">06</span> &nbsp; {"},"}
+        </p>
+        <p>
+          <span className="text-slate-600">07</span> &nbsp; backend: {"{"}
+        </p>
+        <p>
+          <span className="text-slate-600">08</span> &nbsp;&nbsp; skills: [
+          <span className="text-amber-300">'Node.js'</span>,{" "}
+          <span className="text-amber-300">'Express.js'</span>,{" "}
+          <span className="text-amber-300">'MongoDB'</span>],
+        </p>
+        <p>
+          <span className="text-slate-600">09</span> &nbsp; {"},"}
+        </p>
+        <p>
+          <span className="text-slate-600">10</span> &nbsp; creative:{" "}
+          <span className="text-orange-300">true</span>,
+        </p>
+        <p>
+          <span className="text-slate-600">11</span> &nbsp; passion:{" "}
+          <span className="text-emerald-300">'Building Solutions'</span>
+        </p>
+        <p>
+          <span className="text-slate-600">12</span> {"};"}
+        </p>
+        <br />
+        <p>
+          <span className="text-fuchsia-400">function</span>{" "}
+          <span className="text-sky-300">buildFullStackApps</span>() {"{"}
+        </p>
+        <p>
+          <span className="text-slate-600">14</span> &nbsp;{" "}
+          <span className="text-fuchsia-400">return</span>{" "}
+          <span className="text-emerald-300">
+            'Frontend + Backend = Complete Solutions ✨'
+          </span>
+          ;
+        </p>
+        <p>
+          <span className="text-slate-600">15</span> {"}"}
+        </p>
+      </div>
 
-                <div className="flex flex-wrap items-center justify-between gap-2 border-t border-white/[0.08] px-5 py-4 text-[10px] text-slate-500 sm:text-xs">
-                  <span className="text-emerald-300">● READY TO CREATE</span>
-                  <span>React + JavaScript</span>
-                </div>
-              </div>
-            </div>
+      {/* Footer */}
+      <div className="flex flex-wrap items-center justify-between gap-2 border-t border-white/[0.08] px-5 py-4 text-[10px] text-slate-500 sm:text-xs">
+        <span className="text-emerald-300">● FULL-STACK READY</span>
+        <span>React + Node.js + MongoDB</span>
+      </div>
+    </div>
+  </div>
 
-            <div className="absolute -left-3 top-10 rounded-xl border border-white/10 bg-[#171128] p-4 shadow-xl sm:-left-8 sm:p-5">
-              <div className="flex items-center gap-3">
-                <span className="text-3xl">⚛️</span>
-                <div>
-                  <p className="font-bold text-white">React</p>
-                  <p className="text-xs text-slate-400">Building interfaces</p>
-                </div>
-              </div>
-            </div>
+  {/* Frontend Floating Card */}
+  <div className="absolute -left-3 top-10 rounded-xl border border-white/10 bg-[#171128] p-4 shadow-xl sm:-left-8 sm:p-5">
+    <div className="flex items-center gap-3">
+      <span className="text-3xl">⚛️</span>
+      <div>
+        <p className="font-bold text-white">Frontend</p>
+        <p className="text-xs text-slate-400">Beautiful interfaces</p>
+      </div>
+    </div>
+  </div>
 
-            <div className="absolute -bottom-7 right-2 rounded-xl border border-white/10 bg-[#171128] p-4 shadow-xl sm:-right-5 sm:p-5">
-              <div className="flex items-center gap-3">
-                <span className="text-2xl text-violet-300">✦</span>
-                <div>
-                  <p className="font-bold text-white">Creative Mind</p>
-                  <p className="text-xs text-slate-400">Ideas into reality</p>
-                </div>
-              </div>
-            </div>
-          </div>
+  {/* Backend Floating Card */}
+  <div className="absolute -bottom-7 right-2 rounded-xl border border-emerald-400/20 bg-[#10201e] p-4 shadow-xl sm:-right-5 sm:p-5">
+    <div className="flex items-center gap-3">
+      <span className="text-2xl">{"⚙️"}</span>
+      <div>
+        <p className="font-bold text-white">Backend</p>
+        <p className="text-xs text-slate-400">APIs & databases</p>
+      </div>
+    </div>
+  </div>
+</div>
+
         </section>
 
         {/* About */}
